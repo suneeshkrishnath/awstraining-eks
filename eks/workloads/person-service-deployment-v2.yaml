@@ -20,12 +20,12 @@ spec:
           resources:
             limits:
               cpu: 200m
-              memory: 10Mi
-              #memory: 512Mi
+              #memory: 10Mi
+              memory: 512Mi
             requests:
               cpu: 100m
-              memory: 5Mi
-              #memory: 256Mi            
+              #memory: 5Mi
+              memory: 256Mi            
           env:
             - name: DB_DB
               valueFrom:
